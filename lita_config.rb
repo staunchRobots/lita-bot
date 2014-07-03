@@ -1,6 +1,6 @@
 Lita.configure do |config|
   # The name your robot will use.
-  config.robot.name = "Staunch Bot"
+  config.robot.name = ENV["STAUNCHBOT_NAME"]
 
   # The locale code for the language to use.
   config.robot.locale = :en
@@ -10,7 +10,7 @@ Lita.configure do |config|
   # Messages at the selected level and above will be logged.
   config.robot.log_level = :debug
 
-  config.robot.alias = "!"
+  config.robot.alias = ENV["STAUNCHBOT_ALIAS"]
   # An array of user IDs that are considered administrators. These users
   # the ability to add and remove other users from authorization groups.
   # What is considered a user ID will change depending on which adapter you use.
