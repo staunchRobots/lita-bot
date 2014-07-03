@@ -11,6 +11,8 @@ gem "pry-byebug"
 # gem "lita-irc"
 
 # Add handlers to give Lita new functionality.
+gem "lita-catgif"
+gem "lita-catfacts"
 gem "lita-excuses"
 gem "lita-karma"
 gem 'lita-forecast'
