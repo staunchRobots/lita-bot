@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gem "lita"
 gem "lita-hipchat"
+gem "pry-byebug"
 
 # Uncomment to use the HipChat adapter
 # gem "lita-hipchat"
@@ -19,6 +20,6 @@ gem "lita-quote"
 gem "lita-pls"
 gem "lita-google"
 gem "lita-greeter", :path => "./lita-greeter"
+gem "lita-google-images"
 # For example:
-# gem "lita-google-images"
 # gem "lita-karma"

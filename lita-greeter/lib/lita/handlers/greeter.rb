@@ -1,7 +1,6 @@
 module Lita
   module Handlers
     class Greeter < Handler
-      
       def self.greetings
         %w(hello hi greetings sup yo oy hola)
       end
@@ -10,8 +9,12 @@ module Lita
 
       route /^say\s+(.+)/, :say, :command => true
 
+      def random_greet
+        self.class.greetings.shuffle.first
+      end
+
       def greet(response)
-        response.reply "#{self.class.greetings.shuffle.first} #{response.user.name}!"
+        response.reply "@#{response.user.mention_name} #{random_greet}!"
       end
 
       def say(response)
