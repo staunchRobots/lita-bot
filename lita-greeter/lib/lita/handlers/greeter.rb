@@ -5,7 +5,7 @@ module Lita
         %w(hello hi greetings sup yo oy hola)
       end
 
-      route /^(#{greetings.join('|')})$/, :greet, :command => true
+      route /^(#{greetings.join('|')})/, :greet, :command => true
 
       route /^say\s+(.+)/, :say, :command => true
 

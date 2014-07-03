@@ -26,7 +26,8 @@ Lita.configure do |config|
   config.adapter.rooms          = [
     "50014_[sr]_general_staunchness@conf.hipchat.com",
     "50014_luxdelux_-_server_engineering@conf.hipchat.com",
-    "50014_sr_-_off_topic@conf.hipchat.com"
+    "50014_sr_-_off_topic@conf.hipchat.com",
+    "50014_sr_-_bot_lab@conf.hipchat.com"
     ]
 
   ## Example: Set options for the Redis connection.
