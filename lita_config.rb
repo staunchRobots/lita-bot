@@ -23,7 +23,11 @@ Lita.configure do |config|
   config.adapter.debug          = false
   config.adapter.jid            = ENV['STAUNCHBOT_JID']
   config.adapter.password       = ENV['STAUNCHBOT_PASS']
-  config.adapter.rooms          = :all
+  config.adapter.rooms          = [
+    "50014_[sr]_general_staunchness@conf.hipchat.com",
+    "50014_luxdelux_-_server_engineering@conf.hipchat.com",
+    "50014_sr_-_off_topic@conf.hipchat.com"
+    ]
 
   ## Example: Set options for the Redis connection.
   # config.redis.host = "127.0.0.1"

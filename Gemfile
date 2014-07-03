@@ -18,6 +18,7 @@ gem "lita-high-five"
 gem "lita-quote"
 gem "lita-pls"
 gem "lita-google"
+gem "lita-greeter", :path => "./lita-greeter"
 # For example:
 # gem "lita-google-images"
 # gem "lita-karma"

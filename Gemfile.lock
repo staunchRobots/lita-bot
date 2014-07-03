@@ -1,3 +1,9 @@
+PATH
+  remote: ./lita-greeter
+  specs:
+    lita-greeter (0.0.1)
+      lita (>= 3.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -79,6 +85,7 @@ DEPENDENCIES
   lita-forecast
   lita-gems
   lita-google
+  lita-greeter!
   lita-high-five
   lita-hipchat
   lita-karma
