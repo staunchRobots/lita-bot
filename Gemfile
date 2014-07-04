@@ -1,11 +1,8 @@
 source "https://rubygems.org"
 
 gem "lita"
-gem "lita-hipchat"
+gem "lita-hipchat", :git => "git@github.com:darkside/lita-hipchat.git"
 gem "pry-byebug"
-
-# Uncomment to use the HipChat adapter
-# gem "lita-hipchat"
 
 # Uncomment to use the IRC adapter
 # gem "lita-irc"
@@ -21,7 +18,8 @@ gem "lita-high-five"
 gem "lita-quote"
 gem "lita-pls"
 gem "lita-google"
-gem "lita-greeter", :path => "./lita-greeter"
+gem "lita-greeter",   :path => "./lita-greeter"
+gem "lita-announcer", :path => "./lita-announcer"
 gem "lita-google-images"
 # For example:
 # gem "lita-karma"
