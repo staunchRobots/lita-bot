@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "lita"
-gem "lita-hipchat", :git => "git@github.com:darkside/lita-hipchat.git"
+gem "lita-hipchat"
 gem "pry-byebug"
 
 # Uncomment to use the IRC adapter
