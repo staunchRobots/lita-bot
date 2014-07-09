@@ -1,11 +1,13 @@
+require 'pry'
 module Lita
   module Handlers
     class Greeter < Handler
       def self.greetings
-        %w(hello hi greetings sup yo oy hola)
+        t("greetings")
       end
 
-      route /^(#{greetings.join('|')})/, :greet, :command => true
+      route /(#{greetings.join('|')})\s+/, :greet
+      route /^(#{greetings.join('|')})$/,  :greet
 
       route /^say\s+(.+)/, :say, :command => true
 
@@ -14,7 +16,7 @@ module Lita
       end
 
       def greet(response)
-        response.reply "@#{response.user.mention_name} #{random_greet}!"
+        response.reply "#{random_greet} @#{response.user.mention_name}!"
       end
 
       def say(response)

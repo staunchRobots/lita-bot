@@ -2,5 +2,5 @@ en:
   lita:
     handlers:
       announcer:
-        join: "I am Operational!"
+        join: "Reporting for duty!"
         part: "I must go, my planet needs me!"

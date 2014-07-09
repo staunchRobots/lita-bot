@@ -2,3 +2,12 @@ en:
   lita:
     handlers:
       greeter:
+        greetings:
+          - hello 
+          - hi
+          - greetings
+          - sup 
+          - yo 
+          - oy 
+          - hola
+          - ola
