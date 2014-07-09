@@ -1,12 +1,12 @@
 GIT
-  remote: git@github.com:staunchRobots/lita-announcer.git
+  remote: git://github.com/staunchRobots/lita-announcer.git
   revision: a7f251aac3be54bcb44c039e2967731edcdabc8c
   specs:
     lita-announcer (0.0.1)
       lita (>= 3.3)
 
 GIT
-  remote: git@github.com:staunchRobots/lita-greeter.git
+  remote: git://github.com/staunchRobots/lita-greeter.git
   revision: 82ef9d3c4c02a97b0f99a6f67958760a27297249
   specs:
     lita-greeter (0.0.1)
