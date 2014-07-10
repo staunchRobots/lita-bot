@@ -24,5 +24,3 @@ gem "lita-chatterbox", :git => "git://github.com/staunchRobots/lita-chatterbox.g
 gem "lita-announcer",  :git => "git://github.com/staunchRobots/lita-announcer.git"
 gem "lita-hipchat-timezones", :git => "git://github.com/staunchRobots/lita-hipchat-timezones.git"
 gem "lita-google-images"
-# For example:
-# gem "lita-karma"
