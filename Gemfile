@@ -18,8 +18,10 @@ gem "lita-high-five"
 gem "lita-quote"
 gem "lita-pls"
 gem "lita-google"
-gem "lita-greeter",   :git => "git://github.com/staunchRobots/lita-greeter.git"
-gem "lita-announcer", :git => "git://github.com/staunchRobots/lita-announcer.git"
+# Lita chatterings
+gem "lita-chatterbox", :git => "git://github.com/staunchRobots/lita-chatterbox.git"
+# Lita announcements (to be merged to chatterbox)
+gem "lita-announcer",  :git => "git://github.com/staunchRobots/lita-announcer.git"
 gem "lita-google-images"
 # For example:
 # gem "lita-karma"
