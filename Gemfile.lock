@@ -15,7 +15,7 @@ GIT
 
 GIT
   remote: git://github.com/staunchRobots/lita-hipchat-timezones.git
-  revision: 8b72deaf5761a61a9567d8f4be73cc5f51039e78
+  revision: c3194f0590f74a3425008034c832b563ef8f9650
   specs:
     lita-hipchat-timezones (0.0.1)
       activesupport
