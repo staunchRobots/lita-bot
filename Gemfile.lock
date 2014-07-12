@@ -14,11 +14,10 @@ GIT
       lita (>= 3.3)
 
 GIT
-  remote: git://github.com/staunchRobots/lita-hipchat-timezones.git
-  revision: c3194f0590f74a3425008034c832b563ef8f9650
+  remote: git://github.com/staunchRobots/lita-hipchat-extensions.git
+  revision: 6b409f1c24d8da1516a42a4d9a9486fc16300ca6
   specs:
-    lita-hipchat-timezones (0.0.1)
-      activesupport
+    lita-hipchat-extensions (0.0.1)
       httparty
       lita (>= 3.3)
 
@@ -146,7 +145,7 @@ DEPENDENCIES
   lita-google-images
   lita-high-five
   lita-hipchat
-  lita-hipchat-timezones!
+  lita-hipchat-extensions!
   lita-karma
   lita-pls
   lita-quote

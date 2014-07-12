@@ -24,8 +24,8 @@ Lita.configure do |config|
   config.adapter.jid            = ENV['STAUNCHBOT_JID']
   config.adapter.password       = ENV['STAUNCHBOT_PASS']
   config.adapter.rooms          = [
-    "50014_[sr]_general_staunchness@conf.hipchat.com",
-    "50014_sr_-_off_topic@conf.hipchat.com",
+#    "50014_[sr]_general_staunchness@conf.hipchat.com",
+#    "50014_sr_-_off_topic@conf.hipchat.com",
     "50014_sr_-_bot_lab@conf.hipchat.com"
     ]
 
@@ -37,8 +37,8 @@ Lita.configure do |config|
   config.http.port = ENV["PORT"]
 
   # Lita Forecast
-  config.handlers.forecast.api_key        = ENV['STAUNCHBOT_FORECAST_APIKEY']
-  config.handlers.hipchat_timezones.token = ENV['STAUNCHBOT_HIPCHAT_TOKEN']
+  config.handlers.forecast.api_key         = ENV['STAUNCHBOT_FORECAST_APIKEY']
+  config.handlers.hipchat_extensions.token = ENV['STAUNCHBOT_HIPCHAT_TOKEN']
 
   ## Example: Set configuration for any loaded handlers. See the handler's
   ## documentation for options.

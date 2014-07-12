@@ -18,9 +18,10 @@ gem "lita-high-five"
 gem "lita-quote"
 gem "lita-pls"
 gem "lita-google"
-# Lita chatterings
+# [WIP] Lita chatterings
 gem "lita-chatterbox", :git => "git://github.com/staunchRobots/lita-chatterbox.git"
-# Lita announcements (to be merged to chatterbox)
+# [WIP] Lita announcements (to be merged to chatterbox)
 gem "lita-announcer",  :git => "git://github.com/staunchRobots/lita-announcer.git"
-gem "lita-hipchat-timezones", :git => "git://github.com/staunchRobots/lita-hipchat-timezones.git"
+# [WIP] Lita Hipchat Extensions
+gem "lita-hipchat-extensions", :git => "git://github.com/staunchRobots/lita-hipchat-extensions.git"
 gem "lita-google-images"
