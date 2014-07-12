@@ -15,7 +15,7 @@ GIT
 
 GIT
   remote: git://github.com/staunchRobots/lita-hipchat-extensions.git
-  revision: 0989b25971ea32c086ed6b3c938689e3803c1e57
+  revision: 130600c14b266df6740cd9b60be53180be103f06
   specs:
     lita-hipchat-extensions (0.0.1)
       activesupport
