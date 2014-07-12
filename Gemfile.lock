@@ -15,9 +15,10 @@ GIT
 
 GIT
   remote: git://github.com/staunchRobots/lita-hipchat-extensions.git
-  revision: 6b409f1c24d8da1516a42a4d9a9486fc16300ca6
+  revision: 0989b25971ea32c086ed6b3c938689e3803c1e57
   specs:
     lita-hipchat-extensions (0.0.1)
+      activesupport
       httparty
       lita (>= 3.3)
 
@@ -44,7 +45,7 @@ GEM
       hashie
       multi_json
     gems (0.8.3)
-    geocoder (1.2.2)
+    geocoder (1.2.3)
     hashie (3.2.0)
     http_router (0.11.1)
       rack (>= 1.0.0)
